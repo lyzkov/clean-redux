@@ -1,0 +1,45 @@
+PODS:
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - ReRxSwift (2.0.0):
+    - ReSwift (~> 4.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - ReSwift (4.0.1)
+  - ReSwiftRouter (0.6.0):
+    - ReSwift (~> 4.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - R.swift
+  - ReRxSwift
+  - ReSwift
+  - ReSwiftRouter
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - R.swift
+    - R.swift.Library
+    - ReRxSwift
+    - ReSwift
+    - ReSwiftRouter
+    - RxCocoa
+    - RxSwift
+
+SPEC CHECKSUMS:
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReRxSwift: a01b6dc4e9febabfa8c74b97bf8b38bd2007af5b
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  ReSwiftRouter: 81f41b37a5dd1c88e1d3d10a660ff2dcc939ba7c
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: 810a8bd2019934aba94571bfbbbdba14fe7f6f32
+
+COCOAPODS: 1.5.0

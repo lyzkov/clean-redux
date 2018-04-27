@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E253017C7AC6355FCFFE04 /* Pods_clean_redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */; };
+		D10481AE7BD577A7625FC63E /* Pods_clean_reduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */; };
+		F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCA209398A800FCD255 /* AppDelegate.swift */; };
+		F383ADCD209398A800FCD255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCC209398A800FCD255 /* ViewController.swift */; };
+		F383ADD0209398A800FCD255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADCE209398A800FCD255 /* Main.storyboard */; };
+		F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD1209398A800FCD255 /* Assets.xcassets */; };
+		F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */; };
+		F383ADE0209398A900FCD255 /* clean_reduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADDF209398A900FCD255 /* clean_reduxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F383ADDC209398A900FCD255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F383ADBF209398A800FCD255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F383ADC6209398A800FCD255;
+			remoteInfo = "clean-redux";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.release.xcconfig"; sourceTree = "<group>"; };
+		DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		F383ADC7209398A800FCD255 /* clean-redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383ADCA209398A800FCD255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F383ADCC209398A800FCD255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F383ADCF209398A800FCD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F383ADD1209398A800FCD255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F383ADD4209398A800FCD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F383ADD6209398A800FCD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clean-reduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383ADDF209398A900FCD255 /* clean_reduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_reduxTests.swift; sourceTree = "<group>"; };
+		F383ADE1209398A900FCD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_reduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F383ADC4209398A800FCD255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E253017C7AC6355FCFFE04 /* Pods_clean_redux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383ADD8209398A900FCD255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10481AE7BD577A7625FC63E /* Pods_clean_reduxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB87C316D54A3D2E801F3B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */,
+				DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */,
+				DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */,
+				EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEEF8D8B95A4F4C1DB5FAFBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */,
+				F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F383ADBE209398A800FCD255 = {
+			isa = PBXGroup;
+			children = (
+				F383ADC9209398A800FCD255 /* clean-redux */,
+				F383ADDE209398A900FCD255 /* clean-reduxTests */,
+				F383ADC8209398A800FCD255 /* Products */,
+				0BB87C316D54A3D2E801F3B1 /* Pods */,
+				EEEF8D8B95A4F4C1DB5FAFBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F383ADC8209398A800FCD255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F383ADC7209398A800FCD255 /* clean-redux.app */,
+				F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F383ADC9209398A800FCD255 /* clean-redux */ = {
+			isa = PBXGroup;
+			children = (
+				F383ADCA209398A800FCD255 /* AppDelegate.swift */,
+				F383ADCC209398A800FCD255 /* ViewController.swift */,
+				F383ADCE209398A800FCD255 /* Main.storyboard */,
+				F383ADD1209398A800FCD255 /* Assets.xcassets */,
+				F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */,
+				F383ADD6209398A800FCD255 /* Info.plist */,
+			);
+			path = "clean-redux";
+			sourceTree = "<group>";
+		};
+		F383ADDE209398A900FCD255 /* clean-reduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F383ADDF209398A900FCD255 /* clean_reduxTests.swift */,
+				F383ADE1209398A900FCD255 /* Info.plist */,
+			);
+			path = "clean-reduxTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F383ADC6209398A800FCD255 /* clean-redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383ADE4209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-redux" */;
+			buildPhases = (
+				0F0A397B8F64BEB1B9063281 /* [CP] Check Pods Manifest.lock */,
+				F383ADC3209398A800FCD255 /* Sources */,
+				F383ADC4209398A800FCD255 /* Frameworks */,
+				F383ADC5209398A800FCD255 /* Resources */,
+				61854FF13BEAB5C25B8EF0C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clean-redux";
+			productName = "clean-redux";
+			productReference = F383ADC7209398A800FCD255 /* clean-redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F383ADDA209398A900FCD255 /* clean-reduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383ADE7209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */;
+			buildPhases = (
+				6499460EFD94FD7994FFD393 /* [CP] Check Pods Manifest.lock */,
+				F383ADD7209398A900FCD255 /* Sources */,
+				F383ADD8209398A900FCD255 /* Frameworks */,
+				F383ADD9209398A900FCD255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F383ADDD209398A900FCD255 /* PBXTargetDependency */,
+			);
+			name = "clean-reduxTests";
+			productName = "clean-reduxTests";
+			productReference = F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F383ADBF209398A800FCD255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lyzkov;
+				TargetAttributes = {
+					F383ADC6209398A800FCD255 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F383ADDA209398A900FCD255 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F383ADC6209398A800FCD255;
+					};
+				};
+			};
+			buildConfigurationList = F383ADC2209398A800FCD255 /* Build configuration list for PBXProject "clean-redux" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F383ADBE209398A800FCD255;
+			productRefGroup = F383ADC8209398A800FCD255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F383ADC6209398A800FCD255 /* clean-redux */,
+				F383ADDA209398A900FCD255 /* clean-reduxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F383ADC5209398A800FCD255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */,
+				F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */,
+				F383ADD0209398A800FCD255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383ADD9209398A900FCD255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0A397B8F64BEB1B9063281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clean-redux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61854FF13BEAB5C25B8EF0C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReRxSwift/ReRxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwiftRouter/ReSwiftRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReRxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwiftRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6499460EFD94FD7994FFD393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clean-reduxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F383ADC3209398A800FCD255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383ADCD209398A800FCD255 /* ViewController.swift in Sources */,
+				F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383ADD7209398A900FCD255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383ADE0209398A900FCD255 /* clean_reduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F383ADDD209398A900FCD255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F383ADC6209398A800FCD255 /* clean-redux */;
+			targetProxy = F383ADDC209398A900FCD255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F383ADCE209398A800FCD255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F383ADCF209398A800FCD255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F383ADD4209398A800FCD255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F383ADE2209398A900FCD255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F383ADE3209398A900FCD255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F383ADE5209398A900FCD255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPZC96H3B4;
+				INFOPLIST_FILE = "clean-redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F383ADE6209398A900FCD255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPZC96H3B4;
+				INFOPLIST_FILE = "clean-redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F383ADE8209398A900FCD255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clean-redux.app/clean-redux";
+			};
+			name = Debug;
+		};
+		F383ADE9209398A900FCD255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clean-redux.app/clean-redux";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F383ADC2209398A800FCD255 /* Build configuration list for PBXProject "clean-redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383ADE2209398A900FCD255 /* Debug */,
+				F383ADE3209398A900FCD255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383ADE4209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383ADE5209398A900FCD255 /* Debug */,
+				F383ADE6209398A900FCD255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383ADE7209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383ADE8209398A900FCD255 /* Debug */,
+				F383ADE9209398A900FCD255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F383ADBF209398A800FCD255 /* Project object */;
+}
