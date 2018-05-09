@@ -4,13 +4,11 @@ Early expectations...
 
 # Architecture as a Framework
 
----
 
 Each effectively adapted architecture needs a robust framework that bulletproofs its benefits by introducing code organisation on each stage of app development. Cyclones is a toolbox powered by top-notch FRP practices allowing you to bring views to live quickly without writing boilerplate code. Stop asking philosophical questions about what is what. Enjoy the code!
 
 # Assumptions
 
----
 
 - [ ]  Conforms to CLEAN
 - [ ]  Redux-like unidirectional data flow
@@ -30,7 +28,6 @@ Each effectively adapted architecture needs a robust framework that bulletproofs
 
 # Benefits
 
----
 
 - Reduces boilerplate code (proxy classes, builders, delegates, protocols, mocks etc...)
 - Implies data driven thinking
