@@ -1,7 +1,7 @@
 
 # Cyclones (Clean-Feedback-Redux)
 
-Early expectations... 🌪🌪🌪
+🌪🌪🌪 Early expectations...
 
 # Architecture as a Framework
 
