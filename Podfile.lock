@@ -1,7 +1,13 @@
 PODS:
+  - Action (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - Differentiator (3.0.2)
   - R.swift (4.0.0):
     - R.swift.Library (~> 4.0.0)
   - R.swift.Library (4.0.0)
+  - ReactorKit (1.1.0):
+    - RxSwift (>= 4.0.0)
   - ReRxSwift (2.0.0):
     - ReSwift (~> 4.0)
     - RxCocoa (~> 4.0)
@@ -11,35 +17,64 @@ PODS:
     - ReSwift (~> 4.0.0)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxFeedback (1.0.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxLens (0.1.2):
+    - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
 
 DEPENDENCIES:
+  - Action
   - R.swift
+  - ReactorKit
   - ReRxSwift
   - ReSwift
   - ReSwiftRouter
   - RxCocoa
+  - RxDataSources
+  - RxFeedback
+  - RxLens (from `~/Documents/playground/RxLens/`)
   - RxSwift
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - Action
+    - Differentiator
     - R.swift
     - R.swift.Library
+    - ReactorKit
     - ReRxSwift
     - ReSwift
     - ReSwiftRouter
     - RxCocoa
+    - RxDataSources
+    - RxFeedback
     - RxSwift
 
+EXTERNAL SOURCES:
+  RxLens:
+    :path: "~/Documents/playground/RxLens/"
+
 SPEC CHECKSUMS:
+  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReactorKit: 26470a9eff5094fae909a30af0be7cd0cf8a182d
   ReRxSwift: a01b6dc4e9febabfa8c74b97bf8b38bd2007af5b
   ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
   ReSwiftRouter: 81f41b37a5dd1c88e1d3d10a660ff2dcc939ba7c
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxFeedback: 10a567c755e59a1897daf760578c6bae8c546bd4
+  RxLens: 2f765f732b83709a51b127d9bb82e898b9baa94f
   RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: 810a8bd2019934aba94571bfbbbdba14fe7f6f32
+PODFILE CHECKSUM: 5a5dfdefa7f8185cbbe2c44b75890813db31d25e
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

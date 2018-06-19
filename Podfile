@@ -11,10 +11,18 @@ def shared_pods
   pod 'ReSwift'
   pod 'ReSwiftRouter'
   pod 'ReRxSwift'
+  
+  # Feedback
+  pod 'RxFeedback'
 
   # Reactive
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxLens', :path => '~/Documents/playground/RxLens/'
+  pod 'Action'
+  pod 'ReactorKit'
+  
 end
 
 target 'clean-redux' do

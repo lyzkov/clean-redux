@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		26E253017C7AC6355FCFFE04 /* Pods_clean_redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */; };
 		D10481AE7BD577A7625FC63E /* Pods_clean_reduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */; };
+		F35B668C20A192A500B0F145 /* MovieCategoriesCyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */; };
+		F35DD57D20D1999900CEC87A /* PaginationReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DD57C20D1999900CEC87A /* PaginationReactor.swift */; };
 		F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCA209398A800FCD255 /* AppDelegate.swift */; };
 		F383ADCD209398A800FCD255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCC209398A800FCD255 /* ViewController.swift */; };
 		F383ADD0209398A800FCD255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADCE209398A800FCD255 /* Main.storyboard */; };
 		F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD1209398A800FCD255 /* Assets.xcassets */; };
 		F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */; };
 		F383ADE0209398A900FCD255 /* clean_reduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADDF209398A900FCD255 /* clean_reduxTests.swift */; };
+		F386419720AC9D7A00945A64 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F386419620AC9D7A00945A64 /* Pagination.swift */; };
+		F3B4AA5E2093B7920006A25E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4AA5D2093B7910006A25E /* R.generated.swift */; };
+		F3D2C2D9209925BB000B4538 /* ObservableType+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */; };
+		F3D2C2DC20992BBC000B4538 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2DB20992BBC000B4538 /* Category.swift */; };
+		F3D2C2E1209B6542000B4538 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2E0209B6542000B4538 /* DataProvider.swift */; };
+		F3D2C2E5209C95E5000B4538 /* MovieCategoriesFeedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */; };
+		F3D2C2E7209C962A000B4538 /* MovieCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */; };
+		F3EE474D20D2CBCE00A6C971 /* MovieCategoriesReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */; };
+		F3EE475020D4339300A6C971 /* Cyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE474F20D4339300A6C971 /* Cyclone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,8 @@
 		DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.release.xcconfig"; sourceTree = "<group>"; };
 		DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesCyclone.swift; sourceTree = "<group>"; };
+		F35DD57C20D1999900CEC87A /* PaginationReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationReactor.swift; sourceTree = "<group>"; };
 		F383ADC7209398A800FCD255 /* clean-redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F383ADCA209398A800FCD255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F383ADCC209398A800FCD255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +55,16 @@
 		F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clean-reduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F383ADDF209398A900FCD255 /* clean_reduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_reduxTests.swift; sourceTree = "<group>"; };
 		F383ADE1209398A900FCD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F386419620AC9D7A00945A64 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 		F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_reduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B4AA5D2093B7910006A25E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extras.swift"; sourceTree = "<group>"; };
+		F3D2C2DB20992BBC000B4538 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F3D2C2E0209B6542000B4538 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieCategoriesFeedback.storyboard; sourceTree = "<group>"; };
+		F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesViewController.swift; sourceTree = "<group>"; };
+		F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesReactor.swift; sourceTree = "<group>"; };
+		F3EE474F20D4339300A6C971 /* Cyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyclone.swift; sourceTree = "<group>"; };
 		FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +131,9 @@
 		F383ADC9209398A800FCD255 /* clean-redux */ = {
 			isa = PBXGroup;
 			children = (
+				F3D2C2D52099258D000B4538 /* Common */,
+				F383ADEA20939CBE00FCD255 /* Modules */,
+				F3B4AA5D2093B7910006A25E /* R.generated.swift */,
 				F383ADCA209398A800FCD255 /* AppDelegate.swift */,
 				F383ADCC209398A800FCD255 /* ViewController.swift */,
 				F383ADCE209398A800FCD255 /* Main.storyboard */,
@@ -128,6 +153,102 @@
 			path = "clean-reduxTests";
 			sourceTree = "<group>";
 		};
+		F383ADEA20939CBE00FCD255 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F383ADEB20939CF900FCD255 /* Library */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F383ADEB20939CF900FCD255 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2DF209B650D000B4538 /* Provider */,
+				F3D2C2DA20992BA5000B4538 /* Model */,
+				F383ADEC20939D1200FCD255 /* Scenes */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F383ADEC20939D1200FCD255 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2E3209C95BB000B4538 /* MovieCategories */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F386419520AC9D5600945A64 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				F386419620AC9D7A00945A64 /* Pagination.swift */,
+				F35DD57C20D1999900CEC87A /* PaginationReactor.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		F3D2C2D52099258D000B4538 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE474E20D4337300A6C971 /* Cyclone */,
+				F386419520AC9D5600945A64 /* Pagination */,
+				F3D2C2D620992599000B4538 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F3D2C2D620992599000B4538 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2D7209925A5000B4538 /* Rx */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3D2C2D7209925A5000B4538 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		F3D2C2DA20992BA5000B4538 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2DB20992BBC000B4538 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3D2C2DF209B650D000B4538 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2E0209B6542000B4538 /* DataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		F3D2C2E3209C95BB000B4538 /* MovieCategories */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */,
+				F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */,
+				F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */,
+				F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */,
+			);
+			path = MovieCategories;
+			sourceTree = "<group>";
+		};
+		F3EE474E20D4337300A6C971 /* Cyclone */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE474F20D4339300A6C971 /* Cyclone.swift */,
+			);
+			path = Cyclone;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +257,7 @@
 			buildConfigurationList = F383ADE4209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-redux" */;
 			buildPhases = (
 				0F0A397B8F64BEB1B9063281 /* [CP] Check Pods Manifest.lock */,
+				F3B4AA5C2093B7430006A25E /* R.Swift */,
 				F383ADC3209398A800FCD255 /* Sources */,
 				F383ADC4209398A800FCD255 /* Frameworks */,
 				F383ADC5209398A800FCD255 /* Resources */,
@@ -217,6 +339,7 @@
 				F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */,
 				F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */,
 				F383ADD0209398A800FCD255 /* Main.storyboard in Resources */,
+				F3D2C2E5209C95E5000B4538 /* MovieCategoriesFeedback.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,20 +378,32 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReRxSwift/ReRxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReSwiftRouter/ReSwiftRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFeedback/RxFeedback.framework",
+				"${BUILT_PRODUCTS_DIR}/RxLens/RxLens.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReRxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwiftRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFeedback.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLens.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +429,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F3B4AA5C2093B7430006A25E /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -303,6 +452,16 @@
 			files = (
 				F383ADCD209398A800FCD255 /* ViewController.swift in Sources */,
 				F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */,
+				F3D2C2E1209B6542000B4538 /* DataProvider.swift in Sources */,
+				F35B668C20A192A500B0F145 /* MovieCategoriesCyclone.swift in Sources */,
+				F3EE474D20D2CBCE00A6C971 /* MovieCategoriesReactor.swift in Sources */,
+				F35DD57D20D1999900CEC87A /* PaginationReactor.swift in Sources */,
+				F3D2C2D9209925BB000B4538 /* ObservableType+Extras.swift in Sources */,
+				F3B4AA5E2093B7920006A25E /* R.generated.swift in Sources */,
+				F386419720AC9D7A00945A64 /* Pagination.swift in Sources */,
+				F3EE475020D4339300A6C971 /* Cyclone.swift in Sources */,
+				F3D2C2DC20992BBC000B4538 /* Category.swift in Sources */,
+				F3D2C2E7209C962A000B4538 /* MovieCategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
