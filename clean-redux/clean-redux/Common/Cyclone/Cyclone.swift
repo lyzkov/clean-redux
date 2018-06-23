@@ -32,6 +32,14 @@ protocol ReducibleState {
     
 }
 
+extension ObservableConvertibleType where E: ReducibleState {
+    
+    subscript<V>(sub keyPath: KeyPath<E, V>) -> Observable<V> {
+        return asObservable().map { $0[keyPath: keyPath] }
+    }
+    
+}
+
 typealias EventAction<E: Event> = Action<Void, E>
 
 extension ObservableConvertibleType where E: Event {
@@ -44,6 +52,14 @@ extension ObservableConvertibleType where E: Event {
         }
     }
     
+    func asSingleAction() -> EventAction<E> {
+        let observable = asObservable()
+        
+        return Action {
+            observable.take(1)
+        }
+    }
+    
 }
 
 extension ObservableConvertibleType {
@@ -52,23 +68,46 @@ extension ObservableConvertibleType {
         return asObservable().map(eventMap).asAction()
     }
     
+    func asSingleAction<R: Event>(_ eventMap: @escaping (E) -> R) -> EventAction<R> {
+        return asObservable().map(eventMap).asSingleAction()
+    }
+    
 }
 
-class Cyclone<State: ReducibleState> {
+class Cyclone<State: ReducibleState, Action: Hashable> {
     
-    private typealias Feedback = (ObservableSchedulerContext<State>) -> Observable<State.E>
+    typealias E = State
     
-    let state: Observable<State>
+    let state = ReplaySubject<State>.create(bufferSize: 1)
+    var actions = [Action: EventAction<State.E>]()
     
-    init(eventsFactory: @escaping (Observable<State>) -> [EventAction<State.E>]) {
-        state = Observable.system(
-            initialState: State.initial,
-            reduce: State.reduce,
-            scheduler: MainScheduler.instance,
-            scheduledFeedback: { state in
-                Observable.merge(eventsFactory(state.asObservable()).map { $0.elements })
-            }
-        )
+    private let events = PublishSubject<State.E>()
+    
+    let disposeBag = DisposeBag()
+    
+    init() {
+        Observable
+            .system(
+                initialState: State.initial,
+                reduce: State.reduce,
+                scheduler: MainScheduler.instance,
+                scheduledFeedback: { [unowned self] _ in
+                    self.events
+                }
+            )
+            .skip(1)
+            .share(replay: 1, scope: .whileConnected)
+            .bind(to: state)
+            .disposed(by: disposeBag)
+    }
+    
+    func register(action: Action, input: Observable<State.E>, single: Bool = false) {
+        if single {
+            actions[action] = input.asSingleAction()
+        } else {
+            actions[action] = input.asAction()
+        }
+        actions[action]!.elements.bind(to: events).disposed(by: disposeBag)
     }
     
 }
@@ -86,3 +125,4 @@ extension ObservableConvertibleType where E: Event {
     }
     
 }
+

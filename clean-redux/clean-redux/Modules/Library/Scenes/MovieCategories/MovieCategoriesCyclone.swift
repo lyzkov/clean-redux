@@ -14,7 +14,7 @@ import Action
 
 enum MovieCategoriesEvent: Event {
     
-    case loadCategories(categories: [Category])
+    case load(categories: [Category])
     
 }
 
@@ -34,43 +34,30 @@ extension MovieCategoriesState: ReducibleState {
     // TODO: make reduce as monad
     static func reduce(state: MovieCategoriesState, _ event: MovieCategoriesEvent) -> MovieCategoriesState {
         switch event {
-        case let .loadCategories(categories):
+        case let .load(categories):
             return MovieCategoriesState(categories: categories) // TODO: use Lens for creating state object
         }
     }
     
 }
 
-class MovieCategoriesCyclone: Cyclone<MovieCategoriesState> {
+enum MovieCategoriesAction: Int {
+    case load
+}
+
+class MovieCategoriesCyclone: Cyclone<MovieCategoriesState, MovieCategoriesAction> {
     
     // dependencies
     let pagination = PaginationCyclone { page in
         DataProvider().categories(page: page)
     }
     
-    // actions
-    let loadAction: EventAction<MovieCategoriesEvent>
-    
-    // inputs
-    let categoriesInput = PublishSubject<[Category]>()
-    
-    // outputs
-    var categoryNames: Observable<[String]> {
-        return state.map { $0.categories.map { $0.name } }
-    }
-    
-    private let disposeBag = DisposeBag()
-    
-    init() {
-        let loadAction = categoriesInput.asObservable().asAction(MovieCategoriesEvent.loadCategories)
-        self.loadAction = loadAction
+    override init() {
+        super.init()
         
-        super.init { state in
-            [loadAction]
-        }
-        
-        loadAction.inputs.bind(to: pagination.resetAction.inputs).disposed(by: disposeBag)
-        pagination.entities.asObservable().bind(to: categoriesInput).disposed(by: disposeBag)
+        register(action: .load, input: pagination.state[sub: \.entities].map(MovieCategoriesEvent.load))
+        actions[.load]!.inputs.bind(to: pagination.actions[.reset]!.inputs).disposed(by: disposeBag) // TODO: easy binding
+        // TODO: error propagation from action to action
     }
     
 }

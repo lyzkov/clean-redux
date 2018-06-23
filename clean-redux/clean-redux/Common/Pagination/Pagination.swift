@@ -10,28 +10,26 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-enum PaginatedEvent<Entity>: Event {
+enum PaginationEvent<Entity>: Event {
     case nextPage(entities: [Entity])
     case clear
 }
 
-struct PaginatedState<Entity> {
+struct PaginationState<Entity>: ReducibleState {
+    
     let entities: [Entity]
     let lastPage: Int
-}
-
-extension PaginatedState: ReducibleState {
     
-    typealias E = PaginatedEvent<Entity>
+    typealias E = PaginationEvent<Entity>
     
-    static var initial: PaginatedState<Entity> {
-        return PaginatedState<Entity>(entities: [], lastPage: 0)
+    static var initial: PaginationState<Entity> {
+        return PaginationState<Entity>(entities: [], lastPage: 0)
     }
-
-    static func reduce(state: PaginatedState<Entity>, _ event: PaginatedEvent<Entity>) -> PaginatedState {
+    
+    static func reduce(state: PaginationState<Entity>, _ event: PaginationEvent<Entity>) -> PaginationState {
         switch event {
         case let .nextPage(entities):
-            return PaginatedState(
+            return PaginationState(
                 entities: state.entities + entities,
                 lastPage: state.lastPage + 1
             )
@@ -42,44 +40,27 @@ extension PaginatedState: ReducibleState {
     
 }
 
-class PaginationCyclone<Entity>: Cyclone<PaginatedState<Entity>> {
-    
-    // actions
-    let nextAction: EventAction<PaginatedEvent<Entity>>
-    let resetAction: EventAction<PaginatedEvent<Entity>>
-    
-    // inputs
-    
-    // outputs
-    var entities: Observable<[Entity]> {
-        return state.map { $0.entities }
-    }
-    var lastPage: Observable<Int> {
-        return state.map { $0.lastPage }
-    }
-    
-    private let disposeBag = DisposeBag()
+enum PaginationAction: Int {
+    case next
+    case reset
+}
+
+class PaginationCyclone<Entity>: Cyclone<PaginationState<Entity>, PaginationAction> {
     
     init<O: ObservableConvertibleType>(pageFactory: @escaping (Int) -> O) where O.E == [Entity] {
-        let entitiesPaged = ReplaySubject<[Entity]>.create(bufferSize: 1)
-        let nextAction = entitiesPaged.take(1).asAction(PaginatedEvent.nextPage)
-        let resetAction = Observable.concat(
-                .just(.clear),
-                entitiesPaged.take(1).map(PaginatedEvent.nextPage)
-            )
-            .asAction()
+        super.init()
         
-        self.nextAction = nextAction
-        self.resetAction = resetAction
+        let nextPage = state[sub: \.lastPage].flatMap(pageFactory)
         
-        super.init { state in
-            return [nextAction, resetAction]
-        }
-        
-        lastPage.asObservable()
-            .flatMap(pageFactory)
-            .bind(to: entitiesPaged)
-            .disposed(by: disposeBag)
+        register(
+            action: .next,
+            input: nextPage.map(PaginationEvent.nextPage),
+            single: true
+        )
+        register(
+            action: .reset,
+            input: Observable.concat(.just(.clear), nextPage.take(1).map(PaginationEvent.nextPage))
+        )
     }
     
 }
