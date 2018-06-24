@@ -74,6 +74,12 @@ extension ObservableConvertibleType {
     
 }
 
+enum CycloneError: Error {
+    case actionNotRegistered
+}
+
+struct EmptyAction: Hashable { }
+
 class Cyclone<State: ReducibleState, Action: Hashable> {
     
     typealias E = State
@@ -81,7 +87,7 @@ class Cyclone<State: ReducibleState, Action: Hashable> {
     let state = ReplaySubject<State>.create(bufferSize: 1)
     var actions = [Action: EventAction<State.E>]()
     
-    private let events = PublishSubject<State.E>()
+    let events = PublishSubject<State.E>()
     
     let disposeBag = DisposeBag()
     
@@ -95,34 +101,32 @@ class Cyclone<State: ReducibleState, Action: Hashable> {
                     self.events
                 }
             )
-            .skip(1)
             .share(replay: 1, scope: .whileConnected)
             .bind(to: state)
             .disposed(by: disposeBag)
     }
     
-    func register(action: Action, input: Observable<State.E>, single: Bool = false) {
-        if single {
-            actions[action] = input.asSingleAction()
-        } else {
-            actions[action] = input.asAction()
-        }
-        actions[action]!.elements.bind(to: events).disposed(by: disposeBag)
+    func register(action: Action, events: Observable<State.E>, single: Bool = false) {
+        actions[action] = single ? events.asSingleAction() : events.asAction()
+        actions[action]!.elements
+            .bind(to: self.events)
+            .disposed(by: disposeBag)
+    }
+    
+    func register(events: Observable<State.E>, single: Bool = false) {
+        let events = single ? events.take(1) : events
+        events
+            .bind(to: self.events)
+            .disposed(by: disposeBag)
+    }
+    
+    @discardableResult
+    func execute(action: Action) -> Observable<State> {
+        return actions[action]?.execute(()).withLatestFrom(state) ?? .error(CycloneError.actionNotRegistered)
+    }
+    
+    func output<V>(_ keyPath: KeyPath<E, V>) -> Observable<V> {
+        return state.map { $0[keyPath: keyPath] }
     }
     
 }
-
-extension ObservableConvertibleType where E: Event {
-    
-    func cyclone<State: ReducibleState>(feedback: @escaping (ObservableSchedulerContext<State>, Observable<E>) -> Observable<E>) -> Observable<State> where State.E == E {
-        let events = asObservable()
-        return Observable.system(
-            initialState: State.initial,
-            reduce: State.reduce,
-            scheduler: MainScheduler.instance,
-            scheduledFeedback: { state in feedback(state, events) }
-        )
-    }
-    
-}
-

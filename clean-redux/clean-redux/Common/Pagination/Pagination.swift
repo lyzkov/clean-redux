@@ -10,57 +10,51 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-enum PaginationEvent<Entity>: Event {
-    case nextPage(entities: [Entity])
-    case clear
+enum PaginationAction: Int {
+    case next
+    case reset
 }
 
-struct PaginationState<Entity>: ReducibleState {
+enum PaginationEvent<Item>: Event {
+    case next(items: [Item])
+    case reset
+}
+
+struct PaginationState<Item> {
+    let items: [Item]
+    let page: Int
+}
+
+extension PaginationState: ReducibleState {
     
-    let entities: [Entity]
-    let lastPage: Int
+    typealias E = PaginationEvent<Item>
     
-    typealias E = PaginationEvent<Entity>
-    
-    static var initial: PaginationState<Entity> {
-        return PaginationState<Entity>(entities: [], lastPage: 0)
+    static var initial: PaginationState<Item> {
+        return PaginationState<Item>(items: [], page: 0)
     }
     
-    static func reduce(state: PaginationState<Entity>, _ event: PaginationEvent<Entity>) -> PaginationState {
+    static func reduce(state: PaginationState<Item>, _ event: PaginationEvent<Item>) -> PaginationState {
         switch event {
-        case let .nextPage(entities):
+        case let .next(items):
             return PaginationState(
-                entities: state.entities + entities,
-                lastPage: state.lastPage + 1
+                items: state.items + items,
+                page: state.page + 1
             )
-        case .clear:
+        case .reset:
             return initial
         }
     }
     
 }
 
-enum PaginationAction: Int {
-    case next
-    case reset
-}
-
-class PaginationCyclone<Entity>: Cyclone<PaginationState<Entity>, PaginationAction> {
+class PaginationCyclone<Item>: Cyclone<PaginationState<Item>, PaginationAction> {
     
-    init<O: ObservableConvertibleType>(pageFactory: @escaping (Int) -> O) where O.E == [Entity] {
+    init<O: ObservableConvertibleType>(itemsFactory: @escaping (Int) -> O) where O.E == [Item] {
         super.init()
         
-        let nextPage = state[sub: \.lastPage].flatMap(pageFactory)
-        
-        register(
-            action: .next,
-            input: nextPage.map(PaginationEvent.nextPage),
-            single: true
-        )
-        register(
-            action: .reset,
-            input: Observable.concat(.just(.clear), nextPage.take(1).map(PaginationEvent.nextPage))
-        )
+        let nextItems = output(\.page).flatMap(itemsFactory).take(1)
+        register(action: .next, events: nextItems.map(PaginationEvent.next))
+        register(action: .reset, events: Observable.concat(.just(.reset), nextItems.map(PaginationEvent.next)))
     }
     
 }

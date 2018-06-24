@@ -13,16 +13,12 @@ import RxFeedback
 import Action
 
 enum MovieCategoriesEvent: Event {
-    
     case load(categories: [Category])
-    
 }
 
 // TODO: separate state to another file?
-struct MovieCategoriesState: Encodable {
-    
+struct MovieCategoriesState {
     let categories: [Category]
-    
 }
 
 extension MovieCategoriesState: ReducibleState {
@@ -41,11 +37,7 @@ extension MovieCategoriesState: ReducibleState {
     
 }
 
-enum MovieCategoriesAction: Int {
-    case load
-}
-
-class MovieCategoriesCyclone: Cyclone<MovieCategoriesState, MovieCategoriesAction> {
+class MovieCategoriesCyclone: Cyclone<MovieCategoriesState, EmptyAction> {
     
     // dependencies
     let pagination = PaginationCyclone { page in
@@ -55,9 +47,7 @@ class MovieCategoriesCyclone: Cyclone<MovieCategoriesState, MovieCategoriesActio
     override init() {
         super.init()
         
-        register(action: .load, input: pagination.state[sub: \.entities].map(MovieCategoriesEvent.load))
-        actions[.load]!.inputs.bind(to: pagination.actions[.reset]!.inputs).disposed(by: disposeBag) // TODO: easy binding
-        // TODO: error propagation from action to action
+        register(events: pagination.state[sub: \.items].map(MovieCategoriesEvent.load))
     }
     
 }
