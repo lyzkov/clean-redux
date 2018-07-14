@@ -1,0 +1,27 @@
+name: clean-redux
+options:
+   deploymentTarget:
+      iOS: 11.4
+   bundleIdPrefix: com.lyzkov
+targets:
+  clean-redux:
+    platform: iOS
+    type: application
+    sources:
+      - clean-redux
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: '$(inherited)'
+    prebuildScripts:
+      - name: R.Swift
+        script: '"$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/clean-redux"'
+  clean-reduxTests:
+    platform: iOS
+    type: bundle.unit-test
+    sources:
+      - clean-reduxTests
+    dependencies:
+      - target: clean-redux
+    scheme:
+      testTargets:
+        - clean-reduxTests
+      gatherCoverageData: true

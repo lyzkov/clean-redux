@@ -38,7 +38,7 @@ DEPENDENCIES:
   - RxCocoa
   - RxDataSources
   - RxFeedback
-  - RxLens (from `~/Documents/playground/RxLens/`)
+  - RxLens (from `~/Documents/playgrounds/RxLens/`)
   - RxSwift
 
 SPEC REPOS:
@@ -58,7 +58,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   RxLens:
-    :path: "~/Documents/playground/RxLens/"
+    :path: "~/Documents/playgrounds/RxLens/"
 
 SPEC CHECKSUMS:
   Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
@@ -75,6 +75,6 @@ SPEC CHECKSUMS:
   RxLens: 2f765f732b83709a51b127d9bb82e898b9baa94f
   RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: 5a5dfdefa7f8185cbbe2c44b75890813db31d25e
+PODFILE CHECKSUM: 3cd289fadaeb08471beb730b9c0c7ab9e34f3816
 
 COCOAPODS: 1.5.3

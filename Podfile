@@ -19,7 +19,7 @@ def shared_pods
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
-  pod 'RxLens', :path => '~/Documents/playground/RxLens/'
+  pod 'RxLens', :path => '~/Documents/playgrounds/RxLens/'
   pod 'Action'
   pod 'ReactorKit'
   

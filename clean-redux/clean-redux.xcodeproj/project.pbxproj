@@ -3,265 +3,265 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26E253017C7AC6355FCFFE04 /* Pods_clean_redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */; };
-		D10481AE7BD577A7625FC63E /* Pods_clean_reduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */; };
-		F35B668C20A192A500B0F145 /* MovieCategoriesCyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */; };
-		F35DD57D20D1999900CEC87A /* PaginationReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DD57C20D1999900CEC87A /* PaginationReactor.swift */; };
-		F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCA209398A800FCD255 /* AppDelegate.swift */; };
-		F383ADCD209398A800FCD255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADCC209398A800FCD255 /* ViewController.swift */; };
-		F383ADD0209398A800FCD255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADCE209398A800FCD255 /* Main.storyboard */; };
-		F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD1209398A800FCD255 /* Assets.xcassets */; };
-		F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */; };
-		F383ADE0209398A900FCD255 /* clean_reduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383ADDF209398A900FCD255 /* clean_reduxTests.swift */; };
-		F386419720AC9D7A00945A64 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F386419620AC9D7A00945A64 /* Pagination.swift */; };
-		F3B4AA5E2093B7920006A25E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4AA5D2093B7910006A25E /* R.generated.swift */; };
-		F3D2C2D9209925BB000B4538 /* ObservableType+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */; };
-		F3D2C2DC20992BBC000B4538 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2DB20992BBC000B4538 /* Category.swift */; };
-		F3D2C2E1209B6542000B4538 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2E0209B6542000B4538 /* DataProvider.swift */; };
-		F3D2C2E5209C95E5000B4538 /* MovieCategoriesFeedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */; };
-		F3D2C2E7209C962A000B4538 /* MovieCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */; };
-		F3EE474D20D2CBCE00A6C971 /* MovieCategoriesReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */; };
-		F3EE475020D4339300A6C971 /* Cyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE474F20D4339300A6C971 /* Cyclone.swift */; };
+		1BFFE9D296B93312CA3B0E40 /* Pods_clean_reduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F70DE2E81AED56590AB9895 /* Pods_clean_reduxTests.framework */; };
+		BF_152933560209 /* PaginationReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_859310524924 /* PaginationReactor.swift */; };
+		BF_220933786984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = VG_810177599676 /* LaunchScreen.storyboard */; };
+		BF_433340952706 /* MovieCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_580189503228 /* MovieCategoriesViewController.swift */; };
+		BF_460642643806 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_884900862557 /* DataProvider.swift */; };
+		BF_561999112024 /* clean_reduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_601196764853 /* clean_reduxTests.swift */; };
+		BF_614586781675 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_785563570408 /* Pagination.swift */; };
+		BF_615745902007 /* MovieCategoriesReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_802786776558 /* MovieCategoriesReactor.swift */; };
+		BF_616007858959 /* Cyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_240454828770 /* Cyclone.swift */; };
+		BF_635931689334 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_336957688215 /* Category.swift */; };
+		BF_644262077764 /* ObservableType+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_773115871559 /* ObservableType+Extras.swift */; };
+		BF_651649142571 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_897542177825 /* R.generated.swift */; };
+		BF_655852054087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = VG_886936962567 /* Main.storyboard */; };
+		BF_658848844760 /* MovieCategoriesCyclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_714331171442 /* MovieCategoriesCyclone.swift */; };
+		BF_704008247698 /* MovieCategoriesFeedback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FR_814206848884 /* MovieCategoriesFeedback.storyboard */; };
+		BF_808746824284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_650197871214 /* AppDelegate.swift */; };
+		BF_887588873755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_650007393522 /* ViewController.swift */; };
+		BF_917789715331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR_322229704241 /* Assets.xcassets */; };
+		C9576F0849AFC69A19C4C685 /* Pods_clean_redux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AED7A87EB0C3C3219AEA06A /* Pods_clean_redux.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F383ADDC209398A900FCD255 /* PBXContainerItemProxy */ = {
+		CIP_31905469546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F383ADBF209398A800FCD255 /* Project object */;
+			containerPortal = P_3801842698376 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F383ADC6209398A800FCD255;
+			remoteGlobalIDString = NT_380184269837;
 			remoteInfo = "clean-redux";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.release.xcconfig"; sourceTree = "<group>"; };
-		DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.release.xcconfig"; sourceTree = "<group>"; };
-		F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesCyclone.swift; sourceTree = "<group>"; };
-		F35DD57C20D1999900CEC87A /* PaginationReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationReactor.swift; sourceTree = "<group>"; };
-		F383ADC7209398A800FCD255 /* clean-redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F383ADCA209398A800FCD255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F383ADCC209398A800FCD255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F383ADCF209398A800FCD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F383ADD1209398A800FCD255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F383ADD4209398A800FCD255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F383ADD6209398A800FCD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clean-reduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F383ADDF209398A900FCD255 /* clean_reduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_reduxTests.swift; sourceTree = "<group>"; };
-		F383ADE1209398A900FCD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F386419620AC9D7A00945A64 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
-		F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_reduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B4AA5D2093B7910006A25E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
-		F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extras.swift"; sourceTree = "<group>"; };
-		F3D2C2DB20992BBC000B4538 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		F3D2C2E0209B6542000B4538 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieCategoriesFeedback.storyboard; sourceTree = "<group>"; };
-		F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesViewController.swift; sourceTree = "<group>"; };
-		F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesReactor.swift; sourceTree = "<group>"; };
-		F3EE474F20D4339300A6C971 /* Cyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyclone.swift; sourceTree = "<group>"; };
-		FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.debug.xcconfig"; sourceTree = "<group>"; };
+		2AED7A87EB0C3C3219AEA06A /* Pods_clean_redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F70DE2E81AED56590AB9895 /* Pods_clean_reduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clean_reduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962146801D1634A2B2B61EEB /* Pods-clean-redux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.release.xcconfig"; sourceTree = "<group>"; };
+		CC608DB8A9F64B95585673AB /* Pods-clean-reduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		D98DE311DD91353235894A5C /* Pods-clean-redux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-redux.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux.debug.xcconfig"; sourceTree = "<group>"; };
+		DF3B1D5CF16E41B872C16948 /* Pods-clean-reduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean-reduxTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-clean-reduxTests/Pods-clean-reduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FR_240454828770 /* Cyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyclone.swift; sourceTree = "<group>"; };
+		FR_322229704241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FR_336957688215 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FR_380184269837 /* clean-redux.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "clean-redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_401898105458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR_402704555440 /* clean-reduxTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "clean-reduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_465453822541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR_580189503228 /* MovieCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesViewController.swift; sourceTree = "<group>"; };
+		FR_601196764853 /* clean_reduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_reduxTests.swift; sourceTree = "<group>"; };
+		FR_650007393522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FR_650197871214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FR_714331171442 /* MovieCategoriesCyclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesCyclone.swift; sourceTree = "<group>"; };
+		FR_773115871559 /* ObservableType+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extras.swift"; sourceTree = "<group>"; };
+		FR_785563570408 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		FR_802786776558 /* MovieCategoriesReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoriesReactor.swift; sourceTree = "<group>"; };
+		FR_810177599676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FR_814206848884 /* MovieCategoriesFeedback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieCategoriesFeedback.storyboard; sourceTree = "<group>"; };
+		FR_859310524924 /* PaginationReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationReactor.swift; sourceTree = "<group>"; };
+		FR_884900862557 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		FR_886936962567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FR_897542177825 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F383ADC4209398A800FCD255 /* Frameworks */ = {
+		72AC02CC6BDF002B1DE45EDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E253017C7AC6355FCFFE04 /* Pods_clean_redux.framework in Frameworks */,
+				1BFFE9D296B93312CA3B0E40 /* Pods_clean_reduxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F383ADD8209398A900FCD255 /* Frameworks */ = {
+		823E6ED36F1CBE4DA3B95760 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D10481AE7BD577A7625FC63E /* Pods_clean_reduxTests.framework in Frameworks */,
+				C9576F0849AFC69A19C4C685 /* Pods_clean_redux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BB87C316D54A3D2E801F3B1 /* Pods */ = {
+		09F76934300F16A92DB6D096 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */,
-				DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */,
-				DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */,
-				EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */,
+				D98DE311DD91353235894A5C /* Pods-clean-redux.debug.xcconfig */,
+				962146801D1634A2B2B61EEB /* Pods-clean-redux.release.xcconfig */,
+				DF3B1D5CF16E41B872C16948 /* Pods-clean-reduxTests.debug.xcconfig */,
+				CC608DB8A9F64B95585673AB /* Pods-clean-reduxTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EEEF8D8B95A4F4C1DB5FAFBB /* Frameworks */ = {
+		FD98ABCC9B5107B08654A8BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1A821CC76BF9FE3D54B88DE /* Pods_clean_redux.framework */,
-				F3B0385C112E301A5D22E317 /* Pods_clean_reduxTests.framework */,
+				2AED7A87EB0C3C3219AEA06A /* Pods_clean_redux.framework */,
+				5F70DE2E81AED56590AB9895 /* Pods_clean_reduxTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F383ADBE209398A800FCD255 = {
+		G_2345465852380 /* Pagination */ = {
 			isa = PBXGroup;
 			children = (
-				F383ADC9209398A800FCD255 /* clean-redux */,
-				F383ADDE209398A900FCD255 /* clean-reduxTests */,
-				F383ADC8209398A800FCD255 /* Products */,
-				0BB87C316D54A3D2E801F3B1 /* Pods */,
-				EEEF8D8B95A4F4C1DB5FAFBB /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		F383ADC8209398A800FCD255 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F383ADC7209398A800FCD255 /* clean-redux.app */,
-				F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F383ADC9209398A800FCD255 /* clean-redux */ = {
-			isa = PBXGroup;
-			children = (
-				F3D2C2D52099258D000B4538 /* Common */,
-				F383ADEA20939CBE00FCD255 /* Modules */,
-				F3B4AA5D2093B7910006A25E /* R.generated.swift */,
-				F383ADCA209398A800FCD255 /* AppDelegate.swift */,
-				F383ADCC209398A800FCD255 /* ViewController.swift */,
-				F383ADCE209398A800FCD255 /* Main.storyboard */,
-				F383ADD1209398A800FCD255 /* Assets.xcassets */,
-				F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */,
-				F383ADD6209398A800FCD255 /* Info.plist */,
-			);
-			path = "clean-redux";
-			sourceTree = "<group>";
-		};
-		F383ADDE209398A900FCD255 /* clean-reduxTests */ = {
-			isa = PBXGroup;
-			children = (
-				F383ADDF209398A900FCD255 /* clean_reduxTests.swift */,
-				F383ADE1209398A900FCD255 /* Info.plist */,
-			);
-			path = "clean-reduxTests";
-			sourceTree = "<group>";
-		};
-		F383ADEA20939CBE00FCD255 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				F383ADEB20939CF900FCD255 /* Library */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		F383ADEB20939CF900FCD255 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				F3D2C2DF209B650D000B4538 /* Provider */,
-				F3D2C2DA20992BA5000B4538 /* Model */,
-				F383ADEC20939D1200FCD255 /* Scenes */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		F383ADEC20939D1200FCD255 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				F3D2C2E3209C95BB000B4538 /* MovieCategories */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		F386419520AC9D5600945A64 /* Pagination */ = {
-			isa = PBXGroup;
-			children = (
-				F386419620AC9D7A00945A64 /* Pagination.swift */,
-				F35DD57C20D1999900CEC87A /* PaginationReactor.swift */,
+				FR_785563570408 /* Pagination.swift */,
+				FR_859310524924 /* PaginationReactor.swift */,
 			);
 			path = Pagination;
 			sourceTree = "<group>";
 		};
-		F3D2C2D52099258D000B4538 /* Common */ = {
+		G_3801842698376 /* clean-redux */ = {
 			isa = PBXGroup;
 			children = (
-				F3EE474E20D4337300A6C971 /* Cyclone */,
-				F386419520AC9D5600945A64 /* Pagination */,
-				F3D2C2D620992599000B4538 /* Extensions */,
+				G_9135566873834 /* Common */,
+				G_4894426489228 /* Modules */,
+				FR_650197871214 /* AppDelegate.swift */,
+				FR_322229704241 /* Assets.xcassets */,
+				FR_401898105458 /* Info.plist */,
+				VG_810177599676 /* LaunchScreen.storyboard */,
+				VG_886936962567 /* Main.storyboard */,
+				FR_897542177825 /* R.generated.swift */,
+				FR_650007393522 /* ViewController.swift */,
 			);
-			path = Common;
+			path = "clean-redux";
 			sourceTree = "<group>";
 		};
-		F3D2C2D620992599000B4538 /* Extensions */ = {
+		G_4027045554407 /* clean-reduxTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2C2D7209925A5000B4538 /* Rx */,
+				FR_465453822541 /* Info.plist */,
+				FR_601196764853 /* clean_reduxTests.swift */,
 			);
-			path = Extensions;
+			path = "clean-reduxTests";
 			sourceTree = "<group>";
 		};
-		F3D2C2D7209925A5000B4538 /* Rx */ = {
+		G_4306354494489 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2C2D8209925BB000B4538 /* ObservableType+Extras.swift */,
+				FR_773115871559 /* ObservableType+Extras.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
 		};
-		F3D2C2DA20992BA5000B4538 /* Model */ = {
+		G_4782167911845 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2C2DB20992BBC000B4538 /* Category.swift */,
+				G_6523346773640 /* MovieCategories */,
 			);
-			path = Model;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
-		F3D2C2DF209B650D000B4538 /* Provider */ = {
+		G_4894426489228 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2C2E0209B6542000B4538 /* DataProvider.swift */,
+				G_5302264533230 /* Library */,
 			);
-			path = Provider;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		F3D2C2E3209C95BB000B4538 /* MovieCategories */ = {
+		G_5302264533230 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				F3D2C2E4209C95E5000B4538 /* MovieCategoriesFeedback.storyboard */,
-				F3D2C2E6209C962A000B4538 /* MovieCategoriesViewController.swift */,
-				F35B668B20A192A500B0F145 /* MovieCategoriesCyclone.swift */,
-				F3EE474C20D2CBCE00A6C971 /* MovieCategoriesReactor.swift */,
+				G_6935620428756 /* Model */,
+				G_6995279187981 /* Provider */,
+				G_4782167911845 /* Scenes */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		G_5438168605299 /* Cyclone */ = {
+			isa = PBXGroup;
+			children = (
+				FR_240454828770 /* Cyclone.swift */,
+			);
+			path = Cyclone;
+			sourceTree = "<group>";
+		};
+		G_5693004571923 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				G_4306354494489 /* Rx */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		G_6523346773640 /* MovieCategories */ = {
+			isa = PBXGroup;
+			children = (
+				FR_714331171442 /* MovieCategoriesCyclone.swift */,
+				FR_814206848884 /* MovieCategoriesFeedback.storyboard */,
+				FR_802786776558 /* MovieCategoriesReactor.swift */,
+				FR_580189503228 /* MovieCategoriesViewController.swift */,
 			);
 			path = MovieCategories;
 			sourceTree = "<group>";
 		};
-		F3EE474E20D4337300A6C971 /* Cyclone */ = {
+		G_6935620428756 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F3EE474F20D4339300A6C971 /* Cyclone.swift */,
+				FR_336957688215 /* Category.swift */,
 			);
-			path = Cyclone;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		G_6995279187981 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				FR_884900862557 /* DataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		G_8448771205358 = {
+			isa = PBXGroup;
+			children = (
+				G_8620238527590 /* Products */,
+				G_3801842698376 /* clean-redux */,
+				G_4027045554407 /* clean-reduxTests */,
+				09F76934300F16A92DB6D096 /* Pods */,
+				FD98ABCC9B5107B08654A8BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		G_8620238527590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR_380184269837 /* clean-redux.app */,
+				FR_402704555440 /* clean-reduxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G_9135566873834 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				G_5438168605299 /* Cyclone */,
+				G_5693004571923 /* Extensions */,
+				G_2345465852380 /* Pagination */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F383ADC6209398A800FCD255 /* clean-redux */ = {
+		NT_380184269837 /* clean-redux */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F383ADE4209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-redux" */;
+			buildConfigurationList = CL_380184269837-1 /* Build configuration list for PBXNativeTarget "clean-redux" */;
 			buildPhases = (
-				0F0A397B8F64BEB1B9063281 /* [CP] Check Pods Manifest.lock */,
-				F3B4AA5C2093B7430006A25E /* R.Swift */,
-				F383ADC3209398A800FCD255 /* Sources */,
-				F383ADC4209398A800FCD255 /* Frameworks */,
-				F383ADC5209398A800FCD255 /* Resources */,
-				61854FF13BEAB5C25B8EF0C1 /* [CP] Embed Pods Frameworks */,
+				42D4FC97D028F9587EF2D5D2 /* [CP] Check Pods Manifest.lock */,
+				SSBP_8752630423 /* R.Swift */,
+				SBP_38018426983 /* Sources */,
+				RBP_38018426983 /* Resources */,
+				823E6ED36F1CBE4DA3B95760 /* Frameworks */,
+				8AB43ED025B48890883A1004 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,91 +269,69 @@
 			);
 			name = "clean-redux";
 			productName = "clean-redux";
-			productReference = F383ADC7209398A800FCD255 /* clean-redux.app */;
+			productReference = FR_380184269837 /* clean-redux.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F383ADDA209398A900FCD255 /* clean-reduxTests */ = {
+		NT_402704555440 /* clean-reduxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F383ADE7209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */;
+			buildConfigurationList = CL_402704555440 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */;
 			buildPhases = (
-				6499460EFD94FD7994FFD393 /* [CP] Check Pods Manifest.lock */,
-				F383ADD7209398A900FCD255 /* Sources */,
-				F383ADD8209398A900FCD255 /* Frameworks */,
-				F383ADD9209398A900FCD255 /* Resources */,
+				6AE56E7C5C664F6B1383604A /* [CP] Check Pods Manifest.lock */,
+				SBP_40270455544 /* Sources */,
+				72AC02CC6BDF002B1DE45EDF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F383ADDD209398A900FCD255 /* PBXTargetDependency */,
+				TD_914538729016 /* PBXTargetDependency */,
 			);
 			name = "clean-reduxTests";
 			productName = "clean-reduxTests";
-			productReference = F383ADDB209398A900FCD255 /* clean-reduxTests.xctest */;
+			productReference = FR_402704555440 /* clean-reduxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F383ADBF209398A800FCD255 /* Project object */ = {
+		P_3801842698376 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = lyzkov;
-				TargetAttributes = {
-					F383ADC6209398A800FCD255 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					F383ADDA209398A900FCD255 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F383ADC6209398A800FCD255;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = F383ADC2209398A800FCD255 /* Build configuration list for PBXProject "clean-redux" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = CL_380184269837 /* Build configuration list for PBXProject "clean-redux" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
-			mainGroup = F383ADBE209398A800FCD255;
-			productRefGroup = F383ADC8209398A800FCD255 /* Products */;
+			mainGroup = G_8448771205358;
+			productRefGroup = G_8620238527590 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F383ADC6209398A800FCD255 /* clean-redux */,
-				F383ADDA209398A900FCD255 /* clean-reduxTests */,
+				NT_380184269837 /* clean-redux */,
+				NT_402704555440 /* clean-reduxTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F383ADC5209398A800FCD255 /* Resources */ = {
+		RBP_38018426983 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F383ADD5209398A800FCD255 /* LaunchScreen.storyboard in Resources */,
-				F383ADD2209398A800FCD255 /* Assets.xcassets in Resources */,
-				F383ADD0209398A800FCD255 /* Main.storyboard in Resources */,
-				F3D2C2E5209C95E5000B4538 /* MovieCategoriesFeedback.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F383ADD9209398A900FCD255 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BF_917789715331 /* Assets.xcassets in Resources */,
+				BF_220933786984 /* LaunchScreen.storyboard in Resources */,
+				BF_655852054087 /* Main.storyboard in Resources */,
+				BF_704008247698 /* MovieCategoriesFeedback.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F0A397B8F64BEB1B9063281 /* [CP] Check Pods Manifest.lock */ = {
+		42D4FC97D028F9587EF2D5D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,7 +349,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61854FF13BEAB5C25B8EF0C1 /* [CP] Embed Pods Frameworks */ = {
+		6AE56E7C5C664F6B1383604A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clean-reduxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB43ED025B48890883A1004 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,25 +407,7 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-clean-redux/Pods-clean-redux-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6499460EFD94FD7994FFD393 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clean-reduxTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3B4AA5C2093B7430006A25E /* R.Swift */ = {
+		SSBP_8752630423 /* R.Swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,69 +419,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/clean-redux\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F383ADC3209398A800FCD255 /* Sources */ = {
+		SBP_38018426983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F383ADCD209398A800FCD255 /* ViewController.swift in Sources */,
-				F383ADCB209398A800FCD255 /* AppDelegate.swift in Sources */,
-				F3D2C2E1209B6542000B4538 /* DataProvider.swift in Sources */,
-				F35B668C20A192A500B0F145 /* MovieCategoriesCyclone.swift in Sources */,
-				F3EE474D20D2CBCE00A6C971 /* MovieCategoriesReactor.swift in Sources */,
-				F35DD57D20D1999900CEC87A /* PaginationReactor.swift in Sources */,
-				F3D2C2D9209925BB000B4538 /* ObservableType+Extras.swift in Sources */,
-				F3B4AA5E2093B7920006A25E /* R.generated.swift in Sources */,
-				F386419720AC9D7A00945A64 /* Pagination.swift in Sources */,
-				F3EE475020D4339300A6C971 /* Cyclone.swift in Sources */,
-				F3D2C2DC20992BBC000B4538 /* Category.swift in Sources */,
-				F3D2C2E7209C962A000B4538 /* MovieCategoriesViewController.swift in Sources */,
+				BF_808746824284 /* AppDelegate.swift in Sources */,
+				BF_635931689334 /* Category.swift in Sources */,
+				BF_616007858959 /* Cyclone.swift in Sources */,
+				BF_460642643806 /* DataProvider.swift in Sources */,
+				BF_658848844760 /* MovieCategoriesCyclone.swift in Sources */,
+				BF_615745902007 /* MovieCategoriesReactor.swift in Sources */,
+				BF_433340952706 /* MovieCategoriesViewController.swift in Sources */,
+				BF_644262077764 /* ObservableType+Extras.swift in Sources */,
+				BF_614586781675 /* Pagination.swift in Sources */,
+				BF_152933560209 /* PaginationReactor.swift in Sources */,
+				BF_651649142571 /* R.generated.swift in Sources */,
+				BF_887588873755 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F383ADD7209398A900FCD255 /* Sources */ = {
+		SBP_40270455544 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F383ADE0209398A900FCD255 /* clean_reduxTests.swift in Sources */,
+				BF_561999112024 /* clean_reduxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F383ADDD209398A900FCD255 /* PBXTargetDependency */ = {
+		TD_914538729016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F383ADC6209398A800FCD255 /* clean-redux */;
-			targetProxy = F383ADDC209398A900FCD255 /* PBXContainerItemProxy */;
+			target = NT_380184269837 /* clean-redux */;
+			targetProxy = CIP_31905469546 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F383ADCE209398A800FCD255 /* Main.storyboard */ = {
+		VG_810177599676 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F383ADCF209398A800FCD255 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F383ADD3209398A800FCD255 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F383ADD4209398A800FCD255 /* Base */,
+				FR_810177599676 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		VG_886936962567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FR_886936962567 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F383ADE2209398A900FCD255 /* Debug */ = {
+		BC_135063791972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC608DB8A9F64B95585673AB /* Pods-clean-reduxTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC_278768350401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98DE311DD91353235894A5C /* Pods-clean-redux.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "clean-redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC_479945831424 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -517,6 +523,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -524,6 +531,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -532,7 +540,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -542,8 +549,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -551,16 +558,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		F383ADE3209398A900FCD255 /* Release */ = {
+		BC_480782074591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3B1D5CF16E41B872C16948 /* Pods-clean-reduxTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC_528081715480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962146801D1634A2B2B61EEB /* Pods-clean-redux.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "clean-redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC_881114754245 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -574,6 +610,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -581,6 +618,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -589,7 +627,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -602,111 +639,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F383ADE5209398A900FCD255 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD08B379B075D3DE0D3ADD42 /* Pods-clean-redux.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WPZC96H3B4;
-				INFOPLIST_FILE = "clean-redux/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		F383ADE6209398A900FCD255 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB4EA64C24D2C94CDB1753DC /* Pods-clean-redux.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WPZC96H3B4;
-				INFOPLIST_FILE = "clean-redux/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-redux";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		F383ADE8209398A900FCD255 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC0A861C36702072839102B /* Pods-clean-reduxTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clean-redux.app/clean-redux";
-			};
-			name = Debug;
-		};
-		F383ADE9209398A900FCD255 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA39F408053441640D76152A /* Pods-clean-reduxTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "clean-reduxTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lyzkov.clean-reduxTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clean-redux.app/clean-redux";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F383ADC2209398A800FCD255 /* Build configuration list for PBXProject "clean-redux" */ = {
+		CL_380184269837 /* Build configuration list for PBXProject "clean-redux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F383ADE2209398A900FCD255 /* Debug */,
-				F383ADE3209398A900FCD255 /* Release */,
+				BC_479945831424 /* Debug */,
+				BC_881114754245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		F383ADE4209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-redux" */ = {
+		CL_380184269837-1 /* Build configuration list for PBXNativeTarget "clean-redux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F383ADE5209398A900FCD255 /* Debug */,
-				F383ADE6209398A900FCD255 /* Release */,
+				BC_278768350401 /* Debug */,
+				BC_528081715480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
-		F383ADE7209398A900FCD255 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */ = {
+		CL_402704555440 /* Build configuration list for PBXNativeTarget "clean-reduxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F383ADE8209398A900FCD255 /* Debug */,
-				F383ADE9209398A900FCD255 /* Release */,
+				BC_480782074591 /* Debug */,
+				BC_135063791972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F383ADBF209398A800FCD255 /* Project object */;
+	rootObject = P_3801842698376 /* Project object */;
 }
