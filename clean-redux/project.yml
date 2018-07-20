@@ -13,7 +13,7 @@ targets:
       ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: '$(inherited)'
     prebuildScripts:
       - name: R.Swift
-        script: '"$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/clean-redux"'
+        script: '"$PODS_ROOT/R.swift/rswift" generate "$SRCROOT/$PROJECT_NAME"'
   clean-reduxTests:
     platform: iOS
     type: bundle.unit-test
